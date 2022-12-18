@@ -1,0 +1,19 @@
+.footer {
+  background: rgba(0, 0, 0, 0.521);
+}
+.social--links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline: 2em;
+  padding-block: 1em;
+}
+
+.social-item a {
+  display: inline-block;
+}
+
+.social-item i {
+  font-size: 2em;
+  color: gainsboro;
+  opacity: 0.8;
+}

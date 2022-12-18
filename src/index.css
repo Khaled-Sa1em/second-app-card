@@ -1,13 +1,67 @@
+/* reset first */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: roboto, "sans-serif";
+  width: 100vw;
+  min-height: 100vh;
+}
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  background: navy;
+  place-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+  #root {
+    --fs-heading : .8rem;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #root {
+    --fs-heading : 1rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #root {
+    --fs-heading: 1.5rem;
+    font-size: 16px;
+  }
+}
+
+
+#root h1 {
+  font-size: calc(2 * var(--fs-heading)) !important;
+}
+
+#root h2 {
+  font-size: calc(1.5 * var(--fs-heading)) !important;
+}
+
+#root p {
+  font-size: calc(1 * var(--fs-heading)) !important;
 }

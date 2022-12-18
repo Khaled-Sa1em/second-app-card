@@ -1,0 +1,8 @@
+.card-image {
+  height: 19.8125em;
+  background-image: url("../../young-muslim-man-cartoon-vector-character.png");
+  background-repeat: no-repeat;
+  /* background-size: 19.8125em; */
+  /* background-position: center center; */
+  background-size: cover;
+}

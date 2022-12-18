@@ -1,0 +1,59 @@
+.title {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.titles--links {
+  text-align: center;
+}
+
+.card--info {
+  padding: 2em;
+}
+
+.card--info-jop {
+  color: burlywood;
+  line-height: 2em;
+}
+.card--info-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.btn {
+  padding-block: 0.7em;
+  padding-inline: 0.7em;
+  margin-block: 1em;
+  border-radius: 0.7rem;
+  letter-spacing: 1px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: .5fr 1fr;
+  flex: 1;
+  text-align: center;
+}
+
+.btn-email {
+  background: white;
+  color: black;
+}
+.btn-linkedin {
+  background: #5093e2;
+}
+
+.card--info--txt {
+  padding-block: 0.5em;
+}
+
+.card--info--txt div {
+  padding-block: 0.5em;
+}
+
+.card--info--txt-title {
+  letter-spacing: -1px;
+  margin-block: 0.4em;
+}
+
+.txt {
+  font-size: 0.78em;
+}
